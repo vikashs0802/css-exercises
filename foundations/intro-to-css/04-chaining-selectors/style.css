@@ -1,1 +1,12 @@
-/* Add CSS Styling */
+/* Set the width of the avatar and proportioned element */ 
+.avatar.proportioned {
+     width: 300px;
+      aspect-ratio: 1 / 1;
+       /* This ensures the height will be the same as the width */ 
+    }
+/* Set the width and height of the avatar and proportioned element */
+.avatar.distorted {
+    width: 200px;
+    aspect-ratio: 1/2;
+    /* this ensure the height of the avatar and distorted element */
+}
