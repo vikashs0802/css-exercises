@@ -1,0 +1,7 @@
+/* Apply styles to all paragraphs with class "text" inside elements with class "container" */
+.container .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
